@@ -36,3 +36,4 @@ clean:
 # Tests
 #
 include given-tests/Makefile
+include tests/Makefile
