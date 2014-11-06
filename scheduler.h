@@ -1,5 +1,5 @@
 /*
- * Author: Sanhu Li
+ * Author: Sanhu Li, Huifeng Zhang
  *
  * CS 441/541: CPU Scheduler (Project 3)
  */
