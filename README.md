@@ -24,9 +24,9 @@ To remove the application, please use:
     make clean
 ## How to use
 
-	$ ./scheduler [quantum #]"schedulerAlgorithm" "#" "filePath"
+	$ ./scheduler [-q "#"] -s "#" "filePath"
 
-"schedulerAlgorithm" denoting those scheduler algorithms implemented and predefinded as "-s", and "#" denotes which algorithms will be chose:
+"-s" denoting those scheduler algorithms implemented and predefinded as "-s", and "#" denotes which algorithms will be chose:
 
 1 is First-Come, First-Served (FCFS);
 
@@ -36,7 +36,7 @@ To remove the application, please use:
 
 4 is Round-Robin (RR);
 
-Also, quantum # is defined meaningful only if -s 4 is chosen, user can decide the quantum to use, by inputing -q # while "#" denotes the number;
+Also, "-q #" is defined meaningful only if -s 4 is chosen, user can decide the quantum to use, by inputing -q # while "#" denotes the number;
 
 ## Example
 ```
